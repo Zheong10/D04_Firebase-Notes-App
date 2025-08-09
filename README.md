@@ -1,3 +1,53 @@
+# 📒 Day 04 – NotesApp: Real-Time Notes with Firebase Firestore
+
+This is **Day 04** of my **#30Days30Apps** challenge, where I build a new app every day from beginner to advanced level.  
+Today’s project is a **real-time notes app** using **React, TailwindCSS, ShadCN UI, and Firebase Firestore**.  
+It’s our **first full-stack project** in this challenge — storing and syncing data live with Firestore.
+
+---
+
+## 🚀 Features
+- ✏️ Add, display, and delete notes
+- 🔄 Real-time updates using Firestore’s `onSnapshot`
+- 🎨 Clean and modern UI with TailwindCSS + ShadCN
+- 📂 Organized project structure with `lib/firebase.ts`
+
+---
+
+## 🧰 Tech Stack
+- **React + Vite** (TypeScript)
+- **Tailwind CSS**
+- **ShadCN UI**
+- **Firebase Firestore**
+
+---
+
+## 💡 What I Learned
+- Setting up and integrating Firebase Firestore in a React app
+- Adding, reading, and deleting data from Firestore
+- Real-time data syncing using listeners
+- Using async/await with Firestore operations
+- Structuring a frontend + backend full-stack app
+
+---
+
+## 📦 Installation & Setup
+```bash
+# Clone the repository
+git clone https://github.com/ZuharAhamed/04-Notes-App.git
+
+# Navigate to project folder
+cd 04-Notes-App
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
